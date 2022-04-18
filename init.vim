@@ -34,9 +34,9 @@ nnoremap <silent><leader>ec :e $MYVIMRC<cr>
 " Shortcut to source (reload) THIS configuration file after editing it: (s)ource (c)onfiguraiton
 nnoremap <silent><leader>sc :source $MYVIMRC<cr>
 
-" make <C> backspace delete previous word
-nnoremap <C-BS> x <bar> diw
-inoremap <C-BS> <Esc>x <bar> diw
+" indent stays selected after >
+:vnoremap < <gv
+:vnoremap > >gv
 
 " Find files using Telescope command-line sugar.
 nnoremap <silent><leader>ff <cmd>Telescope find_files<cr>
