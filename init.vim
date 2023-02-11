@@ -19,7 +19,7 @@ set cursorline              " highlight current cursorline
 set ttyfast                 " Speed up scrolling in Vim
 set spell                   " enable spell check (may need to download language package)
 set splitright
-" set noswapfile            " disable creating swap file
+set noswapfile            " disable creating swap file
 
 
 " --------------------------
